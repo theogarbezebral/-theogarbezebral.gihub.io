@@ -59,6 +59,9 @@ header{
 .info{
     font-size: 30px; 
     text-align: center;
+    text-shadow: #ae9292 0.1em 0.1em 0.2em;
+    letter-spacing: 5px;
+
 }
 
 .info-event{
@@ -161,4 +164,34 @@ footer{
         flex-direction: column;
         gap: 50px;
     }
+
+    .info{
+        padding: 0 24px;
+        font-size: 25px;
+    }
+    .confirm-presence p{
+        padding: 0 24px 30px 24px;
+    }
+
+    iframe.form{
+        height: 900px;
+    }
+
+    iframe.maps{
+        width: 95%;
+    }
+
+    .reception{
+        padding: 0 24px;
+        text-align: center;
+    }
+
+    .maps h2{
+        font-size: 40px;
+    }
+
+    .maps p{
+        padding: 0 24px 30px 24px;
+    }
+
 }
