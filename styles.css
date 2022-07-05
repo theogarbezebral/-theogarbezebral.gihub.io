@@ -101,7 +101,6 @@ header{
 
 .confirm-presence,
 .maps{
-    border: 1px solid;
     width: 100%;
     padding-top: 70px;
     display: flex;
@@ -120,10 +119,23 @@ header{
 .confirm-presence p,
 .maps p{
     font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: #ae9292 0.1em 0.1em 0.2em;
+    padding-bottom: 30px;
+}
+
+.icon-waze{
+    width: 50px;
 }
 
 .icon-maps{
-    width: 50px;
+    width: 120px;
+}
+
+.maps article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
